@@ -1,0 +1,41 @@
+{
+	"style": {
+		"background-color": "white",
+		"border": 10
+	},
+
+	"contents": [
+		{
+			"name": "title",
+			"control": "TextView",
+			"label": "Google Translate",
+			"style": {
+				"color": "blue",
+				"width": "fill-parent",
+				"height": 20,
+				"align": "left",
+				"valign": "middle"
+			}
+		},
+		{
+			"name": "hasil",
+			"control": "TextView",
+			"label": "",
+			"style": {
+				"color": "blue",
+				"width": "fill-parent",
+				"height": "fill-parent",
+				"align": "left",
+				"valign": "middle"
+			}
+		},
+		{
+			"name": "input",
+			"control": "InputBox",
+			"style":{
+				"background-color" : "#f2f2f2",
+				"height": 20
+			}
+		}
+	]
+}
